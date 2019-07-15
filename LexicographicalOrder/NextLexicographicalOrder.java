@@ -9,7 +9,7 @@ public class NextLexicographicalOrder {
 
   public static void main(String[] args) throws IOException {
     try (
-        BufferedReader br = new BufferedReader(new FileReader(new File("/Users/sabirhussain/Desktop/testcase1.txt")))) {
+        BufferedReader br = new BufferedReader(new FileReader(new File("testcase1.txt")))) {
       String line = null;
 
       while ((line = br.readLine()) != null) {
